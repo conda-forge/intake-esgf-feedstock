@@ -23,13 +23,15 @@ requirements:
     - pip
   run:
     - python >=3.9
+    - numpy
     - pandas
+    - dask
     - xarray
-    - xarray-datatree
     - netCDF4
     - globus-sdk
     - requests
-    - tqdm
+    - pyyaml
+    - tqdm[notebook]
 
 test:
   commands:
