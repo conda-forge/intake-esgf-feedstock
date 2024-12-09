@@ -1,5 +1,6 @@
 {% set name = "intake-esgf" %}
 {% set version = "2024.12.7" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name }}
