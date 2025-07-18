@@ -31,8 +31,10 @@ requirements:
     - netCDF4
     - globus-sdk
     - requests
+    - requests-cache
     - pyyaml
     - tqdm  # notebook
+    - pystac-client
 
 test:
   commands:
