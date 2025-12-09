@@ -1,5 +1,5 @@
 {% set name = "intake-esgf" %}
-{% set version = "2025.10.22" %}
+{% set version = "2025.12.9" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/intake_esgf-{{ version }}.tar.gz
-  sha256: dcbb091612b1cd9168ae93b6ce6ab585cf3e1b9eefd47fe9d36954ced856311d
+  sha256: 1c4131164a9a9b8105c33e4de3e1fa84915db334a00dfafa2f373fd6c9771bfd
 
 build:
   noarch: python
