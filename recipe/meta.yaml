@@ -33,7 +33,7 @@ requirements:
     - requests
     - requests-cache
     - pyyaml
-    - tqdm  # notebook
+    - rich
     - pystac-client
     - py-multihash
 
