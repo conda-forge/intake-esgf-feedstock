@@ -1,5 +1,5 @@
 {% set name = "intake-esgf" %}
-{% set version = "2026.6.4" %}
+{% set version = "2026.9.4" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/intake_esgf-{{ version }}.tar.gz
-  sha256: efd1b3a4b97c0c91cfc38c28af321db43d0c00617fb380b8ac8a3dd470361922
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/intake_esgf-{{ version }}.tar.gz
+  sha256: 76829e3cc84d71a9c79907c1d770f608d6faabe0af7aa309c8d1d892fba0f725
 
 build:
   noarch: python
